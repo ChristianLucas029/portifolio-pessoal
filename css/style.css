@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f5f5dc; /* bege */
+    color: #333;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 15px;
+}
+
+.menu li {
+    margin: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #f5f5dc;
+}
+
+.container {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button {
+    background: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    background: #555;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.dark {
+    background: #222;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #555;
+    color: white;
+    padding: 1px 30px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.foto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
