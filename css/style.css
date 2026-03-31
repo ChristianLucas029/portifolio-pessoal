@@ -64,6 +64,9 @@ button:hover {
     color: white;
     text-align: center;
     padding: 1px;
+    border: 2px solid #d6d1c4;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .dark {
@@ -110,6 +113,9 @@ button:hover {
     background: #2e2e2e;
     color: white;
     padding: 1px 30px;
+    border: 2px solid #d6d1c4;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .header-left {
