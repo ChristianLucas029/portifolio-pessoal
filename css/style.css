@@ -4,6 +4,10 @@ body {
     margin: 0;
     background: #f5f5dc; /* bege */
     color: #333;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .menu {
@@ -59,7 +63,7 @@ button:hover {
     background: #555;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 1px;
 }
 
 .dark {
@@ -106,4 +110,8 @@ button:hover {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.main{
+    flex: 1;
 }
