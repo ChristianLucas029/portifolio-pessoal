@@ -2,8 +2,8 @@
 body {
     font-family: Arial;
     margin: 0;
-    background: #f5f5dc; /* bege */
-    color: #333;
+    background: #e6e6cf;
+    color: #2e2e2e;
 
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ button:hover {
 }
 
 .footer {
-    background: #555;
+    background: #2e2e2e;
     color: white;
     text-align: center;
     padding: 1px;
@@ -68,6 +68,16 @@ button:hover {
 
 .dark {
     background: #222;
+    color: white;
+}
+
+.dark .card-sobre {
+    background: #333;
+    color: white;
+}
+
+.dark .card-sobre p,
+.dark .card-sobre h3 {
     color: white;
 }
 
@@ -81,7 +91,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #555;
+    background: #2e2e2e;
     color: white;
     padding: 1px 30px;
 }
@@ -99,19 +109,67 @@ button:hover {
     object-fit: cover;
 }
 
-.foto-sobre-mim {
-    width: 200px;
-    height: 200px;
-    border-radius: 10%;
-    object-fit: cover;
+.cards-sobre {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
 }
 
-.sobre-container {
+.card-sobre {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-sobre h3 {
+    margin-bottom: 10px;
+}
+
+.card-sobre:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 700px) {
+    .cards-sobre {
+        flex-direction: column;
+    }
+}
+
+.home-container {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
+}
+
+.home-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-foto {
+    width: 275px;
+    border-radius: 15px;
 }
 
 .main{
     flex: 1;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.titulo-sobre {
+    text-align: center;
+    background: #96948f; 
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
