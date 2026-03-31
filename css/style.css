@@ -88,9 +88,22 @@ button:hover {
     gap: 15px;
 }
 
-.foto {
+.foto-icone {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.foto-sobre-mim {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.sobre-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
