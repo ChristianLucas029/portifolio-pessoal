@@ -81,6 +81,22 @@ button:hover {
     color: white;
 }
 
+.dark .card-projetos {
+    background: #333;
+    color: white;
+}
+
+.dark .card-projetos p,
+.dark .card-projetos h3 {
+    color: white;
+}
+
+.dark .btn-github {
+    background: #ddd; 
+    color: #000;
+}
+
+
 @media (max-width: 600px) {
     .menu {
         flex-direction: column;
