@@ -407,8 +407,8 @@ button:hover {
     flex-direction: column;
 }
 
-
-.dark .skills-container {
-    color: rgb(0, 0, 0);
+.dark .skill-card {
+    background: #333;
+    color: white;
 }
 
