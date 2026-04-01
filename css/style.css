@@ -241,19 +241,19 @@ button:hover {
 
 .titulo-sobre {
     text-align: center;
-    background: #96948f; 
-    color: #333;
+    background: #949392; 
+    color: #000000;
     padding: 15px;
     border-radius: 10px;
-    width: fit-content;
+    width: fit-content; 
     margin: 0 auto 20px auto;
     box-shadow: 0 3px 8px rgba(0,0,0,0.1);
 }
 
 .titulo-projetos {
     text-align: center;
-    background: #96948f; 
-    color: #333;
+    background: #949392; 
+    color: #000000;
     padding: 15px;
     border-radius: 10px;
     width: fit-content;
