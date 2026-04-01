@@ -278,6 +278,7 @@ button:hover {
     text-decoration: none;
     margin-top: 10px;
     transition: 0.3s;
+    margin-bottom: 1px;
 }
 
 .btn-github:hover {
