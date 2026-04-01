@@ -4,7 +4,6 @@ body {
     margin: 0;
     background: #e6e6cf;
     color: #2e2e2e;
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -67,7 +66,12 @@ button:hover {
     border: 2px solid #d6d1c4;
     border-radius: 10px;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
+
 
 .dark {
     background: #222;
@@ -279,4 +283,40 @@ button:hover {
 
 .icon-github {
     width: 20px;
+}
+
+.social {
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: normal;
+    transition: 0.3s;
+}
+
+.social a:hover {
+    color: #777;
+}
+
+.social i {
+    font-size: 20px;
+    color: #ffffff;
+    transition: 0.3s;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.link-social {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: normal;
 }
