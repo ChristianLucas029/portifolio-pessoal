@@ -33,7 +33,7 @@ body {
 
 .container {
     padding: 30px;
-    max-width: 800px;
+    max-width: 2000px;
     margin: auto;
 }
 
@@ -145,8 +145,9 @@ button:hover {
 
 .cards-sobre {
     display: flex;
-    gap: 20px;
+    gap: 75px;
     margin-top: 20px;
+    max-width: 800px;
 }
 
 .card-sobre {
@@ -182,7 +183,8 @@ button:hover {
 .cards-projetos {
     display: flex;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 180px;
+    max-width: 1000px;
 }
 
 .card-projetos {
@@ -233,6 +235,7 @@ button:hover {
 
 .main{
     flex: 1;
+    padding-top: 20px;
 }
 
 .container h2 {
@@ -329,14 +332,14 @@ button:hover {
 
 .skill-card {
     background: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .barra {
-    width: 100%;
-    height: 10px;
+    width: auto;
+    height: 5px;
     background: #ddd;
     border-radius: 10px;
     margin-top: 10px;
@@ -367,4 +370,38 @@ button:hover {
 .fa-html5 { color: #e34c26; }
 .fa-css3-alt { color: #264de4; }
 .fa-js { color: #f0db4f; }
-.fa-python { color: #3776ab; }
+.fa-python { color: #3776ab;}
+.fa-java { color: #ED8B00;}
+.fa-react {color: #61DAFB;}
+.fa-database {color: #336791;}
+.fa-git-alt {color: #F05032;}
+.fa-file-alt {color: #2B579A;}
+.fa-tasks {color: #00758F;}
+
+.skills-geral {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 150px;
+    align-items: start;
+    max-width: 1000px;
+}
+
+.titulo-skill {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #888;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.skills-bloco {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dark .skills-container {
+    color: rgb(0, 0, 0);
+}
+
