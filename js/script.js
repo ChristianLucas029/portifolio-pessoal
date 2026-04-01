@@ -1,8 +1,3 @@
-
-function mostrarMais() {
-    document.getElementById("bio").innerText += " Estou sempre buscando evoluir na área de tecnologia.";
-}
-
 document.getElementById("temaBtn").onclick = function() {
     document.body.classList.toggle("dark");
 }
