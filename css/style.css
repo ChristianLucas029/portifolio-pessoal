@@ -413,3 +413,66 @@ button:hover {
     color: white;
 }
 
+.contato-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contato-card {
+    background: rgb(250, 250, 230);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contato-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.contato-info p {
+    margin: 10px 0;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contato-form input,
+.contato-form textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.contato-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contato-form button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contato-form button:hover {
+    background: #555;
+}
+
+.dark .contato-card,
+.dark .contato-form input,
+.dark .contato-form textarea {
+    background: #333;
+    color: white;
+    border: 1px solid #555;
+}

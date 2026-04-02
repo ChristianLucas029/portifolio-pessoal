@@ -30,13 +30,37 @@
     </header>
 
     <section class="container">
-        <h2>Contato</h2>
-        <form id="form" class="card">
-        <input type="text" id="nome" placeholder="Nome">
-        <input type="email" id="email" placeholder="Email">
-        <textarea id="mensagem" placeholder="Mensagem"></textarea>
-        <button type="submit">Enviar</button>
-        </form>
+        <h2 class="titulo-sobre">Contato</h2>
+
+        <div class="contato-container">
+
+            <div class="contato-card">
+                <h3>Fale comigo 👋</h3>
+                <p>Estou aberto a oportunidades, projetos e colaborações.</p>
+
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:chris.ls.araujo@gmail.com">chris.ls.araujo@gmail.com</a>
+                </p>
+
+                <p>
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/christian-araujo029/" target="_blank">
+                        LinkedIn
+                    </a>
+                </p>
+            
+            </div>
+
+            <form class="contato-form">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu email" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+        </div>
     </section>
 
     <footer class="footer">
