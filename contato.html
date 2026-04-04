@@ -52,12 +52,13 @@
             
             </div>
 
-            <form class="contato-form">
-                <input type="text" placeholder="Seu nome" required>
-                <input type="email" placeholder="Seu email" required>
-                <textarea placeholder="Sua mensagem" required></textarea>
-
+            <form action="https://formsubmit.co/seuemail@email.com" method="POST" class="contato-form">
+                
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu email" required>
+                <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
                 <button type="submit">Enviar</button>
+
             </form>
 
         </div>
