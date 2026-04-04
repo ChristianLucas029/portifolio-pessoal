@@ -433,8 +433,12 @@ button:hover {
     box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
 
-.contato-info p {
-    margin: 10px 0;
+.contato-card a {
+    color: #333;
+}
+
+.dark .contato-card a {
+    color: white;
 }
 
 .contato-form {
