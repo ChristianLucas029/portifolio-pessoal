@@ -1,5 +1,13 @@
-document.getElementById("temaBtn").onclick = function() {
+const btn = document.getElementById("temaBtn");
+
+btn.onclick = function() {
     document.body.classList.toggle("dark");
+
+    if (document.body.classList.contains("dark")) {
+        btn.textContent = "☀️";
+    } else {
+        btn.textContent = "🌙";
+    }
 }
 
 document.getElementById("form")?.addEventListener("submit", function(e){
