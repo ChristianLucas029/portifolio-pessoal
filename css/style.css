@@ -429,8 +429,14 @@ button:hover {
 
 /* Responsividade */
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .menu {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 700px) {
+    .home-container {
         flex-direction: column;
     }
 }
@@ -441,11 +447,28 @@ button:hover {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
     .cards-projetos {
         flex-direction: column;
     }
 }
+
+@media (max-width: 700px) {
+    .contato-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .skills-geral {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
 
 /* Dark mode */
 
